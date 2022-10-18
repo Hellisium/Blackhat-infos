@@ -12,16 +12,7 @@ def infoblackhats():
     for archive in archives:
         countries = archive.text
         events.append(countries)
-
-    USA = events[1]
-    Europe = events[2]
-    Asia = events[3]
-    Abu_Dhabi = events[5]
-    London = events[8]
-    Sao_Paulo = events[9]
-
-    countries = [USA, Europe, Asia, Abu_Dhabi, London, Sao_Paulo]
-    print(countries)
+    print (events)
 
 
 infoblackhats()
